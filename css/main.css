@@ -2675,3 +2675,27 @@ header.header {
     padding: 10px 12px;
   }
 }
+body {
+  background: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.content-wrap,
+.post-block,
+.header {
+  opacity: 0.85;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.header-inner {
+  background: rgba(255,255,255,0.85);
+}
+.popup {
+  opacity: 0.85;
+}
+.footer-inner {
+  color: #fff;
+}
